@@ -1,0 +1,5 @@
+games-action/minetest curl nls server dedicated leveldb redis -sound -truetype
+
+# Removing as much as possible from the deps until I can see about a minimal server build
+# You can build minetest with only reference to irrlicht headers which will remove the nasty deps.
+media-libs/mesa -dri3 -egl -gallium -gbm -udev -llvm -classic
