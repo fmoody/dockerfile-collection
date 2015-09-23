@@ -28,6 +28,7 @@ while getopts afh opt; do
 	h)
 	    echo "Usage: `basename $0`"
 	    cat<<EOF
+This command will build minetest from the current git head.
 -h  This message
 -a  Build from scratch image (LONG!)
 -f  Force the build from scratch
